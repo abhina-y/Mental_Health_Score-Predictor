@@ -1,10 +1,17 @@
-# Mental Health Signal
+# Mental Health Score Predictor
 
 A full-stack machine-learning project that estimates a **student mental health score** from demographics, social-media habits, lifestyle factors, and self-reported stress. It pairs a trained scikit-learn regression pipeline with a FastAPI prediction service and a responsive browser interface.
 
+## Live deployment
+
+The deployed API is available at [mental-health-score-predictor-1-ipzi.onrender.com](https://mental-health-score-predictor-1-ipzi.onrender.com/).
+
+- API root: [Open the live service](https://mental-health-score-predictor-1-ipzi.onrender.com/)
+- Interactive API documentation: [Open Swagger UI](https://mental-health-score-predictor-1-ipzi.onrender.com/docs)
+
 > **Important:** This project is for educational and informational use only. It is not a clinical assessment, diagnosis, or substitute for professional mental-health support.
 
-## Highlights
+## Features
 
 - Trains and serves a scikit-learn regression pipeline from raw input features.
 - Provides a validated FastAPI `POST /predict` endpoint.
@@ -90,9 +97,9 @@ Start the FastAPI application from the directory that contains `main.py` and `Me
 uvicorn main:app --reload
 ```
 
-The API will be available at `http://127.0.0.1:8000`.
+The API will be available at `http://127.0.0.1:8000` locally. The deployed service is available at [mental-health-score-predictor-1-ipzi.onrender.com](https://mental-health-score-predictor-1-ipzi.onrender.com/).
 
-- Interactive documentation: `http://127.0.0.1:8000/docs`
+- Interactive documentation: `http://127.0.0.1:8000/docs` (or [live Swagger UI](https://mental-health-score-predictor-1-ipzi.onrender.com/docs))
 - Health/welcome endpoint: `GET /`
 - Prediction endpoint: `POST /predict`
 
@@ -166,4 +173,3 @@ It should print `1.6.1` for this artifact.
 ## License
 
 No license is currently included. Add a license file before redistributing or accepting external contributions.
-"# Mental_Health_Score-Predictor" 
