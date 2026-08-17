@@ -170,6 +170,13 @@ It should print `1.6.1` for this artifact.
 - Restrict CORS origins before deploying publicly.
 - Track model lineage, validation data, and fairness/performance checks before using predictions beyond a demonstration setting.
 
-## License
+## 👨‍💻 Author
 
-No license is currently included. Add a license file before redistributing or accepting external contributions.
+**Abhinay Srivastava**
+
+- GitHub: https://github.com/abhina-y
+- LinkedIn: https://www.linkedin.com/in/abhinay-srivastava-bb0206290/
+
+---
+
+## ⭐ If you found this project helpful, don't forget to star the repository!
