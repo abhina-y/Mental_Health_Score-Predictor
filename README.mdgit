@@ -1,0 +1,1 @@
+"# Mental_Health_Score-Predictor"  initgit add . git commit -m "first commit"git branch -M maingit remote add origin https://github.com/abhina-y/Mental_Health_Score-Predictor.gitgit push -u origin main
